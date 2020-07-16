@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    background-color: green;
+}
+
+header > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto 
+}
+
+main > div {
+    width: 1000px;
+    background-color: lightgray;
+    height: 100%; 
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+//// FRom Adam
+header {
+    width: 100%;
+    height: 10vh;
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+}
+
+header > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+main > div {
+    max-width: 1000px;
+    background-color: #a5a5a5;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
