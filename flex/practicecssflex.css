@@ -4,7 +4,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .parent {
@@ -19,22 +18,23 @@ body {
 
 .parent > div {
     width: 100px;
-    height: 100px; 
+    height: 100px;
     background-color: green;
     margin: 10px;
-
 }
 
-.parent > div:nth-child(1) {
+.parent > div:nth-child(1){
     flex: 5;
-
 }
 
-.parent > div:nth-child(2) {
+.parent > div:nth-child(2){
     flex: 3;
-
 }
 
-.parent > div:nth-child(4) {
-    flex; 1;
+.parent > div:nth-child(4){
+    flex: 1;
+}
+
+.parent > div:hover {
+    background-color: khaki;
 }

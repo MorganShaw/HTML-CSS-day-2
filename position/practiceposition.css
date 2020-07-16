@@ -1,0 +1,52 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    background-color: green;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner {
+    background-color: hotpink;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.top {
+    top: 0;
+    position: absolute;
+}
+
+.bottom {
+    bottom: 0;
+    position: absolute;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}
